@@ -37,7 +37,7 @@ const Mint: NextPage = () => {
 
           <div className='border' />
           
-          <div className='flex flex-col flex-grow items-center justify-between'>
+          <div className='flex md:flex-col flex-grow items-center justify-between'>
             <span className='text-3xl text-zinc-800 title'>Familiar W/</span>
 
             <div className='flex flex-col text-center space-y-3'>

@@ -19,14 +19,14 @@ function MyApp({ Component, pageProps }: AppProps) {
         pauseOnHover
       />
       <NextSeo
-        title="DApp | Valibots"
-        titleTemplate="DApp | Reign Valibots"
-        defaultTitle="DApp | Reign Valibots"
+        title="Mercurialis"
+        titleTemplate="Mercurialis"
+        defaultTitle="Mercurialis"
         description=""
-        canonical="https://reign-dapp.vercel.app/"
+        canonical="http://mercurialis.io/"
         openGraph={{
-          url: "https://reign-dapp.vercel.app/",
-          title: "DApp | Valibots",
+          url: "http://mercurialis.io/",
+          title: "Mercurialis",
           description: "",
           images: [
             {
@@ -38,8 +38,8 @@ function MyApp({ Component, pageProps }: AppProps) {
           ],
         }}
         twitter={{
-          handle: "@",
-          site: "@",
+          handle: "@polepie",
+          site: "@polepie",
           cardType: "app",
         }}
       />
