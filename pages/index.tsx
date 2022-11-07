@@ -21,7 +21,7 @@ const Mint: NextPage = () => {
       <div className='w-full h-[100vh] flex flex-col items-center justify-between bg-zinc-800 p-10'>
         <span className='text-5xl text-zinc-800 title text-center w-full'>My skills</span>
 
-        <div className='w-full h-[60vh] flex'>
+        <div className='w-full md:h-[60vh] flex flex-col md:flex-row space-y-10 md:space-y-0'>
           <div className='flex flex-col flex-grow items-center justify-between'>
             <span className='text-3xl text-zinc-800 title'>Main skills</span>
 
@@ -35,9 +35,9 @@ const Mint: NextPage = () => {
             <div/>
           </div>
 
-          <div className='border' />
+          <div className='border hidden md:block' />
           
-          <div className='flex md:flex-col flex-grow items-center justify-between'>
+          <div className='flex flex-col flex-grow items-center justify-between'>
             <span className='text-3xl text-zinc-800 title'>Familiar W/</span>
 
             <div className='flex flex-col text-center space-y-3'>
@@ -51,13 +51,15 @@ const Mint: NextPage = () => {
             
             <div/>
           </div>
+
+          <div className='md:hidden'/>
         </div>
       </div>
 
       <div className='w-full h-[100vh] flex flex-col items-center justify-between bg-zinc-900 p-10'>
         <span className='text-5xl text-zinc-800 title text-center w-full'>Portfolio</span>
 
-        <div className='w-full h-[60vh] flex'>
+        <div className='w-full h-[60vh] flex flex-col md:flex-col'>
           
           <div className='reign-bg portfolio-card'>
             <span className='text-2xl absolute opacity-100'>Reign</span>

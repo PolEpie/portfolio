@@ -30,9 +30,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           description: "",
           images: [
             {
-              url: "/images/vali6.png",
-              width: 51,
-              height: 51,
+              url: "/images/apple-touch-icon.png",
+              width: 180,
+              height: 180,
               alt: "Reign Logo",
             },
           ],
